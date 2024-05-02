@@ -2,6 +2,10 @@ import './App.scss';
 
 import myPicture from './images/my-picture.jpg'
 import reactIcon from './assets/react2.svg'
+import typescriptIcon from './assets/typescript.svg'
+import javascriptIcon from './assets/javascript.svg'
+import angularIcon from './assets/angular.svg'
+import nodejsIcon from './assets/nodejs.svg'
 
 function App() {
   return (
@@ -31,7 +35,7 @@ function App() {
         Hello world!
       </h1>
       {/* Avatar, nome e profissão */}
-      <div className='flex w-full'>
+      <div className='flex '>
         <div className='flex flex-row'>
           <img src={myPicture} className='rounded-full h-60 w-60 border-2 border-white' />
           <div className='flex items-center ml-6'>
@@ -52,8 +56,47 @@ function App() {
       </div>
       {/* FIM Experiência */}
       {/* skills */}
-      <div className='flex'>
-        <img className='h-10 w-10' src={reactIcon} />
+      <div className='grid gap-y-4'>
+        <div className='flex flex-row'>
+          <img className='h-10 w-10' src={reactIcon} />
+          <div className='ml-2 w-1/3 rounded-full border border-gray-500 z-0 bg-transparent'>
+            <div className='w-2/3 bg-amber-500 z-50 rounded-full h-full flex justify-center items-center'>
+              3 years
+            </div>
+          </div>
+        </div>
+        <div className='flex flex-row'>
+          <img className='h-10 w-10' src={angularIcon} />
+          <div className='ml-2 w-1/3 rounded-full border border-gray-500 z-0 bg-transparent'>
+            <div className='w-2/3 bg-amber-500 z-50 rounded-full h-full flex justify-center items-center'>
+              3 years
+            </div>
+          </div>
+        </div>
+        <div className='flex flex-row'>
+          <img className='h-10 w-10' src={javascriptIcon} />
+          <div className='ml-2 w-1/3 rounded-full border border-gray-500 z-0 bg-transparent'>
+            <div className='w-2/3 bg-amber-500 z-50 rounded-full h-full flex justify-center items-center'>
+              3 years
+            </div>
+          </div>
+        </div>
+        <div className='flex flex-row'>
+          <img className='h-10 w-10' src={typescriptIcon} />
+          <div className='ml-2 w-1/3 rounded-full border border-gray-500 z-0 bg-transparent'>
+            <div className='w-2/3 bg-amber-500 z-50 rounded-full h-full flex justify-center items-center'>
+              3 years
+            </div>
+          </div>
+        </div>
+        <div className='flex flex-row'>
+          <img className='h-10 w-10' src={nodejsIcon} />
+          <div className='ml-2 w-1/3 rounded-full border border-gray-500 z-0 bg-transparent'>
+            <div className='w-2/3 bg-amber-500 z-50 rounded-full h-full flex justify-center items-center'>
+              3 years
+            </div>
+          </div>
+        </div>
       </div>
       {/* FIM skills */}
     </main>
