@@ -17,13 +17,25 @@
     background: linear-gradient(45deg, #7223cf, pink);
   }
 }
+
+@keyframes balance {
+  0% {
+    transform: rotate(15deg);
+  }
+  100% {
+    transform: rotate(30deg);
+  }
+}
+
 main {
   min-height: 100vh;
   width: 100%;
   position: relative;
   display: flex;
-  align-items: center;
+  // align-items: center;
   flex-direction: column;
+  background-color: $bg-primary;
+  padding: 24px;
 
   .header-container {
     display: flex;
@@ -51,13 +63,13 @@ main {
     }
 
     button {
-      border-radius: 24px;
-      border: none;
-      font-weight: 500;
-      font-size: 16px;
-      background-color: transparent;
-      overflow: hidden;
-      position: relative;
+      // border-radius: 24px;
+      // border: none;
+      // font-weight: 500;
+      // font-size: 16px;
+      // background-color: transparent;
+      // overflow: hidden;
+      // position: relative;
 
       div {
         display: flex;
@@ -96,6 +108,85 @@ main {
           animation: appear 300ms linear 15 0s forwards;
 
         }
+      }
+    }
+
+  }
+
+  .content-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-grow: 1;
+    width: 100%;
+    padding: 32px;
+
+    .heading-container {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: flex-end;
+      width: 60%;
+
+      :first-child {
+        align-self: flex-start;
+      }
+      h2 {
+        font-size: 62px;
+        font-weight: 800;
+
+        &:first-of-type {
+          align-self: flex-start;
+        }
+      }
+    }
+
+    
+
+    .bubble {
+      background-color: hsla(0, 0%, 100%, 0.1);
+      padding: 12px 14px;
+      border-radius: 100%;
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &.fire {
+        right: 20px;
+        transform: rotate(-20deg);
+        bottom: 30%;
+        font-size: 24px;
+        width: 50px;
+        height: 50px;
+      }
+
+      &.rocket {
+        top: 20%;
+        right: 100px;
+        font-size: 42px;
+        width: 80px;
+        height: 80px;
+      }
+
+      &.target {
+        left: 150px;
+        top: 10%;
+        font-size: 72px;
+        // transform: rotate(30deg);
+        animation: balance 1000ms alternate 200ms infinite;
+        width: 120px;
+        height: 120px;
+      }
+
+      &.shop {
+        bottom: 20%;
+        left: 5%;
+        font-size: 36px;
+        transform: rotate(30deg);
+        width: 70px;
+        height: 70px;
       }
     }
   }
