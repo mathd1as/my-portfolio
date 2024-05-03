@@ -49,7 +49,7 @@ function App() {
         </div>
         {/* Lnagues */}
         <div className='w-1/3 mt-4'>
-          <h3 className='font-bold text-sm'>Languages</h3>
+          <h3 className='font-bold text-base'>Languages</h3>
           <div className='flex mt-4'>
             <img src={usaIcon} className='w-5 h-5 mr-4' />
             <span className='text-lg text-gray-400'>EN advanced (read)</span>
@@ -60,7 +60,7 @@ function App() {
           </div>
           {/* Education */}
           <div className='mt-4'>
-            <h3 className='font-bold text-sm'>Education</h3>
+            <h3 className='font-bold text-base'>Education</h3>
             <div className='flex mt-4'>
               <div className='mr-3 text-xl'>🎓</div>
               <span className='text-lg text-gray-400'>Computer Science Bachelors Degree - Universidade Estadual do Oeste do Parana</span>
@@ -74,8 +74,8 @@ function App() {
       {/* Experiência */}
       <div className='flex flex-start my-12'>
         <div className='w-1/3'>
-          <h3 className='font-bold text-lg'>Experience</h3>
-          <span className='text-lg'>4 years working as a Software Engeener, in companys such as Itaú, Stone and Aftersale</span>
+          <h3 className='font-bold text-lg'>About</h3>
+          <span className='text-lg'>Software engeener with 4+ years of experience in software development, participated with solutions for the sectors of govtech, marketplace and fintechs, using as technology: Node, TypeScript, JavaScript, and Angular in addition to databases (SQL and NoSQL) and Agile methodologies such as SCRUM. Always focused on the best delivery to the customer in a responsible, agile and proactive way.</span>
         </div>
       </div>
       {/* FIM Experiência */}
@@ -84,7 +84,7 @@ function App() {
         <div className='flex flex-row'>
           <img className='h-10 w-10' src={reactIcon} />
           <div className='ml-2 w-1/3 rounded-full border border-gray-500 z-0 bg-transparent'>
-            <div className='w-2/3 bg-amber-500 z-50 rounded-full h-full flex justify-center items-center'>
+            <div className='w-2/3 z-50 rounded-full h-full flex justify-center items-center bg-gradient-to-r from-pink-500 to-blue-500'>
               3 years
             </div>
           </div>
@@ -92,7 +92,7 @@ function App() {
         <div className='flex flex-row'>
           <img className='h-10 w-10' src={angularIcon} />
           <div className='ml-2 w-1/3 rounded-full border border-gray-500 z-0 bg-transparent'>
-            <div className='w-2/3 bg-amber-500 z-50 rounded-full h-full flex justify-center items-center'>
+            <div className='w-2/3 z-50 rounded-full h-full flex justify-center items-center bg-gradient-to-r from-pink-500 to-blue-500'>
               3 years
             </div>
           </div>
@@ -100,7 +100,7 @@ function App() {
         <div className='flex flex-row'>
           <img className='h-10 w-10' src={javascriptIcon} />
           <div className='ml-2 w-1/3 rounded-full border border-gray-500 z-0 bg-transparent'>
-            <div className='w-2/3 bg-amber-500 z-50 rounded-full h-full flex justify-center items-center'>
+            <div className='w-2/3 z-50 rounded-full h-full flex justify-center items-center bg-gradient-to-r from-pink-500 to-blue-500'>
               3 years
             </div>
           </div>
@@ -108,7 +108,7 @@ function App() {
         <div className='flex flex-row'>
           <img className='h-10 w-10' src={typescriptIcon} />
           <div className='ml-2 w-1/3 rounded-full border border-gray-500 z-0 bg-transparent'>
-            <div className='w-2/3 bg-amber-500 z-50 rounded-full h-full flex justify-center items-center'>
+            <div className='w-2/3 z-50 rounded-full h-full flex justify-center items-center bg-gradient-to-r from-pink-500 to-blue-500'>
               3 years
             </div>
           </div>
@@ -116,7 +116,7 @@ function App() {
         <div className='flex flex-row'>
           <img className='h-10 w-10' src={nodejsIcon} />
           <div className='ml-2 w-1/3 rounded-full border border-gray-500 z-0 bg-transparent'>
-            <div className='w-2/3 bg-amber-500 z-50 rounded-full h-full flex justify-center items-center'>
+            <div className='w-2/3 z-50 rounded-full h-full flex justify-center items-center bg-gradient-to-r from-pink-500 to-blue-500'>
               3 years
             </div>
           </div>
