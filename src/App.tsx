@@ -8,10 +8,15 @@ import angularIcon from './assets/angular.svg'
 import nodejsIcon from './assets/nodejs.svg'
 import usaIcon from './assets/usa.svg'
 import brazilIcon from './assets/brazil.svg'
+import gitIcon from './assets/git.svg'
+import xIcon from './assets/x.svg'
+import instagramIcon from './assets/instagram.svg'
+import linkedinIcon from './assets/linkedin.svg'
+import emailIcon from './assets/email.svg'
 
 function App() {
   return (
-    <main className='bg-zinc-900'>
+    <main className='bg-zinc-800'>
       {/* <header className='header-container'>
         <Logo/>
         <nav className="menu-options"> 
@@ -122,6 +127,36 @@ function App() {
           </div>
         </div>
       </div>
+      {/* skills */}
+      <div className='mt-10 absolute bottom-10 right-20'>
+        <div className='space-x-10 flex flex-row'>
+          <div className='cursor-pointer rounded-full border-2 border-white w-10 h-10 flex items-center justify-center'>
+            <img src={instagramIcon} className='h-5 w-5'/>
+          </div>
+          <div className='cursor-pointer rounded-full border-2 border-white w-10 h-10 flex items-center justify-center'>
+            <a href="https://twitter.com/mathd1as">
+              <img src={xIcon} className='h-5 w-5'/>
+            </a>
+          </div>
+          <div className='cursor-pointer rounded-full border-2 border-white w-10 h-10 flex items-center justify-center'>
+              <a href="https://www.linkedin.com/in/matheus-de-lara-dias-da-silva-2b6396185/">
+                <img src={linkedinIcon} className='h-5 w-5'/>
+              </a>
+          </div>
+          <div className='cursor-pointer rounded-full border-2 border-white w-10 h-10 flex items-center justify-center'>
+            <a href="https://github.com/mathd1as">
+              <img src={gitIcon} className='h-5 w-5'/>
+            </a>
+          </div>
+        </div>
+        <div>
+          <button className='text-white text-lg rounded-full bg-white text-black w-72 h-10 mt-4 bg-gradient-to-r from-pink-500 to-blue-500'>
+            CONTACT ME
+            {/* <img src={emailIcon} /> */}
+          </button>
+          </div>
+      </div>
+
       {/* FIM skills */}
     </main>
   );
