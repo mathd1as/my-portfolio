@@ -57,11 +57,12 @@ function App() {
       </div>
       {/* FIM Avatar, nome e profissão */}
       {/* Experiência */}
-      <div className='flex flex-start my-6'>
-        <div className='w-2/4'>
+      <div className='flex flex-start'>
+        <div className='w-3/6'>
           <h3 className='h3-about-title'>Experience</h3>
           <div className='mt-4'>
             <p className='p-experience-text'>Software engeener with 4+ years of experience in software development, participated with solutions for the sectors of govtech, marketplace and fintechs, using as technology: Node, TypeScript, JavaScript, and Angular in addition to databases (SQL and NoSQL) and Agile methodologies such as SCRUM. Always focused on the best delivery to the customer in a responsible, agile and proactive way.</p>
+            {/* <p className='p-experience-text'>3 years working as a Software Developer, in companys such as Itaú, Stone and Aftersale.</p> */}
           </div>
         </div>
       </div>
@@ -70,7 +71,7 @@ function App() {
       <div className='grid gap-y-4'>
         <div className='flex flex-row items-center'>
           <img className='h-10 w-10 ' src={reactIcon} />
-          <div className='ml-2 w-1/6 rounded-full border border-gray-500 z-0 bg-transparent h-8'>
+          <div className='ml-2 w-2/6 rounded-full border border-gray-500 z-0 bg-transparent h-8'>
             <div className='w-1/3 z-50 rounded-full h-full flex justify-center items-center bg-gradient-to-r from-pink-500 to-blue-500'>
               1 year
             </div>
@@ -78,7 +79,7 @@ function App() {
         </div>
         <div className='flex flex-row items-center'>
           <img className='h-10 w-10' src={angularIcon} />
-          <div className='ml-2 w-1/6 rounded-full border border-gray-500 z-0 bg-transparent h-8'>
+          <div className='ml-2 w-2/6 rounded-full border border-gray-500 z-0 bg-transparent h-8'>
             <div className='w-2/4 z-50 rounded-full h-full flex justify-center items-center bg-gradient-to-r from-pink-500 to-blue-500'>
               2 years
             </div>
@@ -86,7 +87,7 @@ function App() {
         </div>
         <div className='flex flex-row items-center'>
           <img className='h-10 w-10' src={javascriptIcon} />
-          <div className='ml-2 w-1/6 rounded-full border border-gray-500 z-0 bg-transparent h-8'>
+          <div className='ml-2 w-2/6 rounded-full border border-gray-500 z-0 bg-transparent h-8'>
             <div className='w-2/3 z-50 rounded-full h-full flex justify-center items-center bg-gradient-to-r from-pink-500 to-blue-500'>
               3 years
             </div>
@@ -94,7 +95,7 @@ function App() {
         </div>
         <div className='flex flex-row items-center'>
           <img className='h-10 w-10' src={typescriptIcon} />
-          <div className='ml-2 w-1/6 rounded-full border border-gray-500 z-0 bg-transparent h-8'>
+          <div className='ml-2 w-2/6 rounded-full border border-gray-500 z-0 bg-transparent h-8'>
             <div className='w-2/3 z-50 rounded-full h-full flex justify-center items-center bg-gradient-to-r from-pink-500 to-blue-500'>
               3 years
             </div>
@@ -102,30 +103,30 @@ function App() {
         </div>
         <div className='flex flex-row items-center'>
           <img className='h-10 w-10' src={nodejsIcon} />
-          <div className='ml-2 w-1/6 rounded-full border border-gray-500 z-0 bg-transparent h-8'>
+          <div className='ml-2 w-2/6 rounded-full border border-gray-500 z-0 bg-transparent h-8'>
             <div className='w-2/3 z-50 rounded-full h-full flex justify-center items-center bg-gradient-to-r from-pink-500 to-blue-500'>
               3 years
             </div>
           </div>
         </div>
       </div>
-      {/* skills */}
+      {/* FIM skills */}
       <div className='mt-10 absolute bottom-10 right-20'>
         <div className='space-x-10 flex flex-row'>
-          <div className='cursor-pointer rounded-full border-2 border-white w-10 h-10 flex items-center justify-center'>
+          <div className='cursor-pointer rounded-full border-2 border-white w-10 h-10 flex items-center justify-center hover:border-sky-400'>
             <img src={instagramIcon} className='h-5 w-5'/>
           </div>
-          <div className='cursor-pointer rounded-full border-2 border-white w-10 h-10 flex items-center justify-center'>
+          <div className='cursor-pointer rounded-full border-2 border-white w-10 h-10 flex items-center justify-center hover:border-sky-400'>
             <a href="https://twitter.com/mathd1as">
               <img src={xIcon} className='h-5 w-5'/>
             </a>
           </div>
-          <div className='cursor-pointer rounded-full border-2 border-white w-10 h-10 flex items-center justify-center'>
+          <div className='cursor-pointer rounded-full border-2 border-white w-10 h-10 flex items-center justify-center hover:border-sky-400'>
               <a href="https://www.linkedin.com/in/matheus-de-lara-dias-da-silva-2b6396185/">
                 <img src={linkedinIcon} className='h-5 w-5'/>
               </a>
           </div>
-          <div className='cursor-pointer rounded-full border-2 border-white w-10 h-10 flex items-center justify-center'>
+          <div className='cursor-pointer rounded-full border-2 border-white w-10 h-10 flex items-center justify-center hover:border-sky-400'>
             <a href="https://github.com/mathd1as">
               <img src={gitIcon} className='h-5 w-5'/>
             </a>
