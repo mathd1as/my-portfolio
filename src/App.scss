@@ -32,10 +32,41 @@ main {
   width: 100%;
   position: relative;
   display: flex;
-  // align-items: center;
   flex-direction: column;
-  // background-color: $bg-primary;
-  padding: 24px;
+  padding-left: 40px;
+  padding-top: 30px;
+
+  .h2-apresentation-text {
+    font-size: 36px;
+  }
+
+  .h2-position-text {
+    font-size: 30px;
+    color: #B3B3B3
+  }
+
+  .h3-about-title {
+    font-size: 24px;
+  }
+
+  .p-experience-text {
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 300;
+  }
+
+  .h3-language-education {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 500;
+  }
+
+  .p-education-text {
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #B3B3B3
+  }
 
   .header-container {
     display: flex;
