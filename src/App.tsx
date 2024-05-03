@@ -49,22 +49,21 @@ function App() {
         </div>
         {/* Lnagues */}
         <div className='w-1/3 mt-4'>
-          <h3 className='font-bold text-lg'>Languages</h3>
+          <h3 className='font-bold text-sm'>Languages</h3>
           <div className='flex mt-4'>
             <img src={usaIcon} className='w-5 h-5 mr-4' />
             <span className='text-lg text-gray-400'>EN advanced (read)</span>
           </div>
           <div className='flex mt-4'>
             <img src={brazilIcon} className='w-5 h-5 mr-4' />
-            <span className='text-lg text-gray-400'>PT-BR Native Speaker</span>
+            <span className='text-lg text-gray-400'>PT - BR Native Speaker</span>
           </div>
           {/* Education */}
           <div className='mt-4'>
-            <h3 className='font-bold text-lg'>Education</h3>
+            <h3 className='font-bold text-sm'>Education</h3>
             <div className='flex mt-4'>
               <div className='mr-3 text-xl'>🎓</div>
-              {/* <span className='text-lg text-gray-400'>Computer Science Bachelors Degree - Universidade Estadual do Oeste do Parana</span> */}
-              teste
+              <span className='text-lg text-gray-400'>Computer Science Bachelors Degree - Universidade Estadual do Oeste do Parana</span>
             </div>
           </div>
           {/* FIM Education */}
