@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/mathd1as/my-portfolio/static/css/main.26fd6468.css",
+    "main.js": "/mathd1as/my-portfolio/static/js/main.9ddb5390.js",
+    "static/js/453.acca0757.chunk.js": "/mathd1as/my-portfolio/static/js/453.acca0757.chunk.js",
+    "static/media/usa.svg": "/mathd1as/my-portfolio/static/media/usa.52d9b7832e7583b249cfcaad83d47490.svg",
+    "static/media/my-picture.jpg": "/mathd1as/my-portfolio/static/media/my-picture.8a8970feb55a8b929fdc.jpg",
+    "static/media/brazil.svg": "/mathd1as/my-portfolio/static/media/brazil.bf6237015cc98ee86fe17a7888f7836d.svg",
+    "static/media/react2.svg": "/mathd1as/my-portfolio/static/media/react2.3814f2e2db989efaa7cc561a3d94a8ef.svg",
+    "static/media/git.svg": "/mathd1as/my-portfolio/static/media/git.ec04b724f8f17bf6bbc5cb2f38f435ef.svg",
+    "static/media/nodejs.svg": "/mathd1as/my-portfolio/static/media/nodejs.e23a44e8fc7f554add0fa86320f3a228.svg",
+    "static/media/instagram.svg": "/mathd1as/my-portfolio/static/media/instagram.5ed60826b5544962086ff13ae95b2994.svg",
+    "static/media/x.svg": "/mathd1as/my-portfolio/static/media/x.6230ecacd32999b28c42e1de9913648d.svg",
+    "static/media/javascript.svg": "/mathd1as/my-portfolio/static/media/javascript.ef2af6c9dbf6b87fbdae20572faede69.svg",
+    "static/media/typescript.svg": "/mathd1as/my-portfolio/static/media/typescript.3fb3e91f5944271c101214b929a92c5c.svg",
+    "static/media/linkedin.svg": "/mathd1as/my-portfolio/static/media/linkedin.9a5dc8c93241c58981fa38147666fca6.svg",
+    "index.html": "/mathd1as/my-portfolio/index.html",
+    "static/media/angular.svg": "/mathd1as/my-portfolio/static/media/angular.fca7c5a73fa354f20d13e16663942533.svg",
+    "main.26fd6468.css.map": "/mathd1as/my-portfolio/static/css/main.26fd6468.css.map",
+    "main.9ddb5390.js.map": "/mathd1as/my-portfolio/static/js/main.9ddb5390.js.map",
+    "453.acca0757.chunk.js.map": "/mathd1as/my-portfolio/static/js/453.acca0757.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.26fd6468.css",
+    "static/js/main.9ddb5390.js"
+  ]
+}
