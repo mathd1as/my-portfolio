@@ -12,7 +12,6 @@ import gitIcon from './assets/git.svg'
 import xIcon from './assets/x.svg'
 import instagramIcon from './assets/instagram.svg'
 import linkedinIcon from './assets/linkedin.svg'
-import emailIcon from './assets/email.svg'
 
 function App() {
   return (
@@ -62,7 +61,6 @@ function App() {
           <h3 className='h3-about-title'>Experience</h3>
           <div className='mt-4'>
             <p className='p-experience-text'>Software engeener with 3+ years of experience in software development, participated with solutions for the sectors of govtech, marketplace and fintechs, using as technology: Node, TypeScript, JavaScript, and Angular in addition to databases (SQL and NoSQL) and Agile methodologies such as SCRUM. Always focused on the best delivery to the customer in a responsible, agile and proactive way.</p>
-            {/* <p className='p-experience-text'>3 years working as a Software Developer, in companys such as Itaú, Stone and Aftersale.</p> */}
           </div>
         </div>
       </div>
@@ -113,9 +111,11 @@ function App() {
       {/* FIM skills */}
       <div className='mt-10 absolute bottom-10 right-20'>
         <div className='space-x-10 flex flex-row'>
-          <div className='cursor-pointer rounded-full border-2 border-white w-10 h-10 flex items-center justify-center container-links'>
-            <img src={instagramIcon} className='h-5 w-5'/>
-          </div>
+          <a href="https://www.instagram.com/mathd1as/">
+            <div className='cursor-pointer rounded-full border-2 border-white w-10 h-10 flex items-center justify-center container-links'>
+              <img src={instagramIcon} className='h-5 w-5'/>
+            </div>
+          </a>  
           <div className='cursor-pointer rounded-full border-2 border-white w-10 h-10 flex items-center justify-center container-links'>
             <a href="https://twitter.com/mathd1as">
               <img src={xIcon} className='h-5 w-5'/>
@@ -132,14 +132,10 @@ function App() {
             </a>
           </div>
         </div>
-        <div>
-          <button className='text-white text-lg rounded-full bg-white text-black w-72 h-10 mt-4 bg-gradient-to-r from-pink-500 to-blue-500'>
-            CONTACT ME
-            {/* <img src={emailIcon} /> */}
-          </button>
-          </div>
+        <div className='mt-4 h-1 rounded-full bg-gradient-to-r from-pink-500 to-blue-500'>
+        </div>
+        <p className='mt-2'>matheus.vex@gmail.com</p>
       </div>
-
       {/* FIM skills */}
     </main>
   );
