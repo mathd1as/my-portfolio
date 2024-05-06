@@ -173,8 +173,6 @@ main {
       }
     }
 
-    
-
     .bubble {
       background-color: hsla(0, 0%, 100%, 0.1);
       padding: 12px 14px;
@@ -219,6 +217,14 @@ main {
         width: 70px;
         height: 70px;
       }
+    }
+  }
+
+  .container-links {
+    // filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(234deg) brightness(107%) contrast(106%);
+    color: white;
+    &:hover {
+      filter: invert(64%) sepia(23%) saturate(3975%) hue-rotate(172deg) brightness(105%) contrast(94%);
     }
   }
 }

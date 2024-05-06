@@ -61,14 +61,14 @@ function App() {
         <div className='w-3/6'>
           <h3 className='h3-about-title'>Experience</h3>
           <div className='mt-4'>
-            <p className='p-experience-text'>Software engeener with 4+ years of experience in software development, participated with solutions for the sectors of govtech, marketplace and fintechs, using as technology: Node, TypeScript, JavaScript, and Angular in addition to databases (SQL and NoSQL) and Agile methodologies such as SCRUM. Always focused on the best delivery to the customer in a responsible, agile and proactive way.</p>
+            <p className='p-experience-text'>Software engeener with 3+ years of experience in software development, participated with solutions for the sectors of govtech, marketplace and fintechs, using as technology: Node, TypeScript, JavaScript, and Angular in addition to databases (SQL and NoSQL) and Agile methodologies such as SCRUM. Always focused on the best delivery to the customer in a responsible, agile and proactive way.</p>
             {/* <p className='p-experience-text'>3 years working as a Software Developer, in companys such as Itaú, Stone and Aftersale.</p> */}
           </div>
         </div>
       </div>
       {/* FIM Experiência */}
       {/* skills */}
-      <div className='grid gap-y-4'>
+      <div className='grid gap-y-4 mt-3'>
         <div className='flex flex-row items-center'>
           <img className='h-10 w-10 ' src={reactIcon} />
           <div className='ml-2 w-2/6 rounded-full border border-gray-500 z-0 bg-transparent h-8'>
@@ -113,21 +113,21 @@ function App() {
       {/* FIM skills */}
       <div className='mt-10 absolute bottom-10 right-20'>
         <div className='space-x-10 flex flex-row'>
-          <div className='cursor-pointer rounded-full border-2 border-white w-10 h-10 flex items-center justify-center hover:border-sky-400'>
+          <div className='cursor-pointer rounded-full border-2 border-white w-10 h-10 flex items-center justify-center container-links'>
             <img src={instagramIcon} className='h-5 w-5'/>
           </div>
-          <div className='cursor-pointer rounded-full border-2 border-white w-10 h-10 flex items-center justify-center hover:border-sky-400'>
+          <div className='cursor-pointer rounded-full border-2 border-white w-10 h-10 flex items-center justify-center container-links'>
             <a href="https://twitter.com/mathd1as">
               <img src={xIcon} className='h-5 w-5'/>
             </a>
           </div>
-          <div className='cursor-pointer rounded-full border-2 border-white w-10 h-10 flex items-center justify-center hover:border-sky-400'>
+          <div className='cursor-pointer rounded-full border-2 border-white w-10 h-10 flex items-center justify-center container-links'>
               <a href="https://www.linkedin.com/in/matheus-de-lara-dias-da-silva-2b6396185/">
                 <img src={linkedinIcon} className='h-5 w-5'/>
               </a>
           </div>
-          <div className='cursor-pointer rounded-full border-2 border-white w-10 h-10 flex items-center justify-center hover:border-sky-400'>
-            <a href="https://github.com/mathd1as">
+          <div className='cursor-pointer rounded-full border-2 border-white w-10 h-10 flex items-center justify-center container-links'>
+            <a href="https://www.instagram.com/mathd1as/">
               <img src={gitIcon} className='h-5 w-5'/>
             </a>
           </div>
