@@ -23,7 +23,7 @@ function App() {
           <div className='flex items-center ml-6'>
             <div>
               <h2 className='font-bold text-2xl h2-apresentation-text mb-4'>Hi, I'm Matheus! 👋</h2>
-              <h2 className='h2-position-text'>Software Engeener</h2>
+              <h2 className='h2-position-text'>Software engineer</h2>
             </div>
           </div>
         </div>
@@ -60,7 +60,7 @@ function App() {
         <div className='w-3/6'>
           <h3 className='h3-about-title'>Experience</h3>
           <div className='mt-4'>
-            <p className='p-experience-text'>Software engeener with 3+ years of experience in software development, participated with solutions for the sectors of govtech, marketplace and fintechs, using as technology: Node, TypeScript, JavaScript, and Angular in addition to databases (SQL and NoSQL) and Agile methodologies such as SCRUM. Always focused on the best delivery to the customer in a responsible, agile and proactive way.</p>
+            <p className='p-experience-text'>Software engineer with 3+ years of experience in software development, participated with solutions for the sectors of govtech, marketplace and fintechs, using as technology: Node, TypeScript, JavaScript, and Angular in addition to databases (SQL and NoSQL) and Agile methodologies such as SCRUM. Always focused on the best delivery to the customer in a responsible, agile and proactive way.</p>
           </div>
         </div>
       </div>
