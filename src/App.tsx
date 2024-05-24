@@ -16,7 +16,6 @@ import linkedinIcon from './assets/linkedin.svg'
 function App() {
   return (
     <main className='bg-zinc-800'>
-      {/* Avatar, nome e profissão */}
       <div className='flex justify-between'>
         <div className='flex flex-row'>
           <img src={myPicture} className='rounded-full h-60 w-60 border-2 border-white' />
@@ -27,7 +26,6 @@ function App() {
             </div>
           </div>
         </div>
-        {/* Lnagues */}
         <div className='w-1/3 mt-4'>
           <h3 className='h3-language-education'>Languages</h3>
           <div className='flex mt-4 items-center'>
