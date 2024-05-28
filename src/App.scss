@@ -221,14 +221,9 @@ main {
   }
 
   .container-links {
-    // color: white;
-    // &:hover {
-    //   // filter: invert(64%) sepia(23%) saturate(3975%) hue-rotate(172deg) brightness(105%) contrast(94%);
-    //   color: red
-    // }
-    svg:hover {
-      fill: red;
-      stroke: white;
+    color: white;
+    &:hover {
+      filter: invert(64%) sepia(23%) saturate(3975%) hue-rotate(172deg) brightness(105%) contrast(94%);
     }
   }
 }
