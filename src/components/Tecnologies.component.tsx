@@ -4,7 +4,7 @@ import nodejs from "../assets/nodejs.svg";
 import angular from "../assets/angular.svg";
 import Nest from "../assets/Nest.svg";
 
-import React, { Component } from "react";
+import { Component } from "react";
 
 export class Tecnologies extends Component {
   render() {

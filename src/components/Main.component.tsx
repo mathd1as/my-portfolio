@@ -14,7 +14,7 @@ export class Main extends Component {
             Matheus de Lara Dias da Silva
           </h2>
           <h3 className="max-w-2xl mb-4 text-3xl font-extrabold tracking-tight dark:text-white">
-            Desenvolvedor de software
+            Desenvolvedor de software 👨‍💻
           </h3>
           <p className="max-w-2xl mb-8 font-light text-gray-500 lg:mb-6 md:text-lg lg:text-xl dark:text-gray-400">
             Trabalhei em projetos de pequeno, médio e grande porte. Te ajudo a
