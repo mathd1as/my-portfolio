@@ -11,7 +11,7 @@ export class Tecnologies extends Component {
     return (
       <div className="py-8 px-4 text-center lg:py-16 lg:px-12">
         <div className="px-4 mx-auto mb-8 text-center lg:max-w-screen-xl">
-          <div className="font-semibold text-gray-400 mb-8 uppercase">
+          <div className="font-semibold text-gray-400 mb-8 uppercase text-xl">
             TECNOLOGIAS
           </div>
           <div className="mb-8 font-light text-gray-500 lg:mb-6 lg:text-3xl dark:text-gray-400">
