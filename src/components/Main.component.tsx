@@ -8,7 +8,7 @@ import { Component } from "react";
 export class Main extends Component {
   render() {
     return (
-      <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+      <div className="grid max-w-screen-xl lg:px-4 lg:py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
         <div className="mr-auto place-self-center lg:col-span-7 order-2 lg:order-1">
           <h2 className="max-w-3xl mb-4 text-5xl font-extrabold tracking-tight dark:text-white">
             Matheus de Lara Dias da Silva
@@ -52,7 +52,7 @@ export class Main extends Component {
           <img
             src={myPicture}
             alt="git"
-            className="rounded-full w-96 h-96 mb-4"
+            className="rounded-full lg:w-96 lg:h-96 mb-4"
           />
         </div>
       </div>
